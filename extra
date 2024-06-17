@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* color: #ffffff; */
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, blue,white,blue);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} */
+div .box{
+    border: 2px solid black;
+    color: black;
+    /* background-color: #ffffff; */
+    /* background: transparent; */
+    filter: blur(24px);
+    -webkit-filter: blur(24px);
+    opacity: 0.5;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    
+}
+.idd,.passh{
+    font-weight: bold;
+    color: black;
+}
